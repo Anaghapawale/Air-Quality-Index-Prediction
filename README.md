@@ -1,1 +1,1 @@
-# Air-Quality-Index-Prediction
+Diabetes-Prediction
