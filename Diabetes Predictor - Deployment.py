@@ -26,7 +26,7 @@ X = df.drop(columns='Outcome')
 y = df['Outcome']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=0)
 
-# Creating Random Forest Model
+#Creating Random Forest Model
 from sklearn.ensemble import RandomForestClassifier
 classifier = RandomForestClassifier(n_estimators=20)
 classifier.fit(X_train, y_train)
